@@ -62,7 +62,7 @@ const Main = () => {
             
             <div className="main-bottom">
                 <div className="search-box">
-                    <input onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder='Tulisen pitakonmu nek kene'/>
+                    <input onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder='Tulisen pitakonmu nek kene, lek lemot wajar, API gratisan kok'/>
                     <div>
                         <img src={assets.gallery_icon} alt="" />
                         <img src={assets.mic_icon} alt="" />
